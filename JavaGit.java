@@ -22,44 +22,45 @@ public class JavaGit {
     switch (mes ){
         case 1:
             System.out.println("janeiro");
-            break;
+            
         case 2:
-            System.out.println("fevereiro"+"março"+"abril"+"maio"+"junho"+"julio"+"agosto"+"setembro"+"outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("fevereiro");
+           
         case 3:
-            System.out.println("março"+"abril"+"maio"+"junho"+"julio"+"agosto"+"setembro"+"outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("março");
+            
         case 4:
-            System.out.println("abril"+"maio"+"junho"+"julio"+"agosto"+"setembro"+"outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("abril");
+            
         case 5:
-            System.out.println("maio"+"junho"+"julio"+"agosto"+"setembro"+"outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("maio");
+            
         case 6:
-            System.out.println("junho"+"julio"+"agosto"+"setembro"+"outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("junho");
+            
         case 7:
-            System.out.println("julio"+"agosto"+"setembro"+"outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("julio");
+           
         case 8:
-            System.out.println("agosto"+"setembro"+"outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("agosto");
+           
         case 9:
-            System.out.println("setembro"+"outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("setembro");
+          
         case 10:
-            System.out.println("outubro"+"novembro"+"dezembro");
-            break;
+            System.out.println("outubro");
+            
         case 11:
-            System.out.println("novembro"+"dezembro");
-            break;
+            System.out.println("novembro");
+           
         case 12:
             System.out.println("dezembro");
-            break; 
+            
         
     }
-    if( mes > 12){
-        System.out.println(" erro");
+    if( mes > 12|| mes <=0){
+        System.out.println(" mes não existe!");
+      
     
     }
 }}
